@@ -1,0 +1,26 @@
+*.class
+#package file
+*.jar
+*.war
+*.ear
+
+*.orig
+
+target/
+.settings/
+.project
+.classpatch
+
+.idea/
+/idea/
+*.ipr
+.iml
+.iws
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
