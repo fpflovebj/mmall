@@ -11,4 +11,8 @@ public interface IUserService {
     public ServerResponse<String> checkValid(String str,String type);
     public ServerResponse selectQuestion(String username);
     public ServerResponse<String> checkAnswer(String username,String question,String answer);
+    public ServerResponse<String> forgetRestPassword(String username, String PasswordNew, String forgetToken);
+    public  ServerResponse<String> resetPassword(String passwordOld,String passwordNew,User user);
+    public ServerResponse<User> updateInfomation(User user);
+    public ServerResponse<User> get_infomation(Integer userId);
 }
